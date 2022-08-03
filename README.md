@@ -2,6 +2,18 @@
 
 SpaceX is experiencing an increasing demand of shipments to Mars and has commissioned an application to automate the needed cargo space calculations.
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 ## High level overview
 
 The application should load existing set of shipments over the network. After which they can be filtered, viewed, edited and saved locally for later viewing.
