@@ -1,0 +1,35 @@
+.button {
+  padding: 4px 10px;
+  cursor: pointer;
+  color: #262626;
+  border: solid 1.2px #262626;
+  border-radius: 2px;
+  transition: color 350ms ease;
+  user-select: none;
+  background: #fff;
+
+  &:hover {
+    color: #fff;
+    background: #262626;
+  }
+
+  &__mobile {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 18px;
+
+    &--save {
+      grid-area: save-btn;
+    }
+
+    &--load {
+      grid-area: load-btn;
+    }
+
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}

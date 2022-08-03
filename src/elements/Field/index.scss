@@ -1,0 +1,18 @@
+.search-field {
+  width: 100%;
+  padding: 5px 0 5px 25px;
+
+  &:hover {
+    outline: auto;
+  }
+}
+
+.boxes-field {
+  padding: 5px;
+  font-size: 14px;
+  min-width: 220px;
+  width: fit-content;
+  &:hover {
+    outline: auto;
+  }
+}

@@ -1,0 +1,29 @@
+.sidebar {
+  display: none;
+  flex-direction: column;
+  margin-left: 50px;
+  grid-area: sidebar;
+  width: 100%;
+  min-width: 170px;
+  height: calc(100vh - 130px);
+  position: relative;
+  overflow: auto;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1);
+
+  &__list {
+    list-style-type: none;
+    margin: 0 20px;
+  }
+
+  &__list-item {
+    position: relative;
+    margin: 10px 0;
+  }
+  @media only screen and (min-width: 768px) {
+    display: flex;
+  }
+
+  @media only screen and (min-width: 992px) {
+    min-width: 250px;
+  }
+}
